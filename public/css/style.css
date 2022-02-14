@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(100deg, #B667F1, #FBCAFF );
+}
+.main-body{
+    margin-top: 70px;
+    width: 50%;
+}
+.initial{
+    height: 500px;
+}
+.card-body{
+    overflow-y: scroll;
+}
+.card-header{
+    text-align: center;
+}
+
+.left{
+    padding: 10px;
+    float: left;
+    clear: both;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 15%;
+    word-wrap: break-word;
+}
+.user-message{
+    width: 24%;
+}
+.right{
+    padding: 10px;
+    border: 1px solid;
+    margin-top: 20px;
+    float: right;
+    clear: both;
+    border-radius: 15%;
+    word-wrap: break-word;
+}
+
+
+
+ @media(max-width:1370px) and (min-width:1120px){
+    .main-body{
+        width: 50%;
+    }
+}
+@media(max-width:1120px) and (min-width:900px){
+    .main-body{
+        width: 60%;
+    }
+}
+@media(max-width:900px) and (min-width:500px){
+    .main-body{
+        width: 70%;
+    }
+}
+@media(max-width:500px){
+    .main-body{
+        width: 100%;
+    }
+} 
